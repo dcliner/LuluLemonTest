@@ -20,7 +20,7 @@ class ListModel {
                     })
                 }else{
                     self.itemArray  = arr.sorted(by: { (g1, g2) -> Bool in
-                        g1.time < g2.time
+                        g1.time > g2.time
                     })
                 }
             }
